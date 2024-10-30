@@ -4,6 +4,7 @@
 
 import os,sys,errno,traceback,inspect,re,datetime,platform,base64
 try:
+	from hashlib import md5
 	import cPickle
 except ImportError:
 	import pickle as cPickle
