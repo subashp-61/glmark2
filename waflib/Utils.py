@@ -2,7 +2,7 @@
 # encoding: utf-8
 # WARNING! Do not edit! https://waf.io/book/index.html#_obtaining_the_waf_file
 
-import os,sys,errno,traceback,inspect,re,datetime,platform,base64
+import os,sys,errno,traceback,inspect,re,datetime,platform,base64,md5
 try:
 	from hashlib import md5
 	import cPickle
